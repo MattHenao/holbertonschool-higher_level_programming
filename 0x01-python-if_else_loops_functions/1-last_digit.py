@@ -2,7 +2,6 @@
 import random
 number = random.randint(-10000, 10000)
 print('Last digit of {:d} '.format(number), end="")
-n = 0
 if number < 0:
 	n = number % -10
 else:
