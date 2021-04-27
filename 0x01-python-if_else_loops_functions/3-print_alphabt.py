@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for alfabeto in range(97, 123):
-    if alfabeto == 113 or alfabeto == 101:
+for abcd in range(97, 123):
+    if abcd == 113 or abcd == 101:
         continue
     else:
-        print('{:c}'.format(alfabeto), end="")
+        print('{:c}'.format(abcd), end="")
