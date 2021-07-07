@@ -4,7 +4,7 @@
 
 class Square:
     """Build a class"""
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Initialize the attributes"""
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
