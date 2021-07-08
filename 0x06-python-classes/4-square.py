@@ -8,10 +8,12 @@ class Square:
         """Initialize the attributes"""
         self.__size = size
     
+    @property
     def size(self):
         """Return it"""
         return self.__size
 
+    @size.setter
     def size(self, value):
         """The exception"""
         if not isinstance(size, int):
