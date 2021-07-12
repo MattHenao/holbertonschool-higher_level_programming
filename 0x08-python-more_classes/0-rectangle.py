@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Create rectangle class"""
 
-def Rectangle(self):
+
+class Rectangle:
+    """Build the class"""
     pass
