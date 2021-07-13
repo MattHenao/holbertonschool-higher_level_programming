@@ -55,5 +55,5 @@ class Rectangle:
         for num in range(self.__height):
             tmp += '{:s}'.format(self.__width * '#')
             if num is not self.__height - 1:
-                tmp +='\n'
+                tmp += '\n'
         return tmp
