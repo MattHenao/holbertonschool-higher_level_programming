@@ -5,9 +5,10 @@
 class Rectangle:
     """Build the class"""
     def __init__(self, width=0, height=0):
-        self.width = width
-        self.height = height
-    
+        """Init the attributes"""
+        self.__width = width
+        self.__height = height
+
     @property
     def width(self):
         return self.__width
