@@ -6,17 +6,17 @@ class Rectangle {
       this.height = h;
     }
   }
-  print(){
+
+  print () {
     let i, j;
     for (i = 0; i < this.height; i++) {
       let rect = '';
-      for (j = 0; j < this.width; j++){
-        rect += 'X'
+      for (j = 0; j < this.width; j++) {
+        rect += 'X';
       }
-      console.log(rect)
+      console.log(rect);
     }
   }
 }
-  
-  module.exports = Rectangle;
-  
+
+module.exports = Rectangle;
